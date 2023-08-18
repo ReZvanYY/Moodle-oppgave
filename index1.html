@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eksempel 1</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script1.js"></script>
+</head>
+
+<body>
+
+    <div>
+        <button onclick="noLayout()">No layout</button>
+        <button onclick="verticalLayout1()">vertical layout</button>
+        <button onclick="horizontalLayout1()">horizontal layout</button>
+        <button onclick="gridLayout1()">Grid layout</button>
+    </div>
+
+    <h1>Moodle oppgave</h1>
+
+    Hva hetere du <input type="text" /> <br>
+    <br>
+
+    <div id="Page">
+        <div class="card">
+            <div class="header green" onclick="ShowTools1()">Verktøy</div>
+            <div id="Tools"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header blue" onclick="ShowHTML1()">HTML</div>
+            <div id="HTML"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="header red" onclick="ShowCSS1()">CSS</div>
+            <div id="CSS"></div>
+        </div>
+
+        <div class="card">
+            <div class="header yellow" onclick="ShowJavascript1()">JavaScript</div>
+            <div id="Javascript"></div>
+        </div>
+
+        <div class="card">
+            <div class="header dark" onclick="ShowBodygame1()">Hode, Kropp og Ben</div>
+            <div id="Bodygame"></div>
+        </div>
+    </div>
+</body>
+
+</html>
